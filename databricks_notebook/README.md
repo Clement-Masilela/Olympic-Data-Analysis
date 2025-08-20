@@ -1,4 +1,4 @@
-# 📂 Azure Databricks Notebooks
+# Azure Databricks Notebooks
 
 This folder contains PySpark notebooks used for data transformation.
 
