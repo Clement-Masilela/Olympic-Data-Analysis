@@ -14,7 +14,7 @@ This project demonstrates a full-stack data engineering pipeline using the Micro
   Transformed data is queried using **Azure Synapse Analytics**, leveraging T-SQL for deep analytical insights.
 
 - **Visualization**:  
-  Final dashboards can be created using **Power BI**, directly connected to Synapse for seamless data exploration (this part is still in progress or can be scoped in next iteration).
+  Final dashboards are created using **Power BI**, directly connected to Synapse for seamless data exploration.
 
 ## What I Learned
 - Hands-on experience orchestrating data pipelines using Azure-native tools.
