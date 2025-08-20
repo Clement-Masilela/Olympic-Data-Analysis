@@ -16,6 +16,9 @@ This project demonstrates a full-stack data engineering pipeline using the Micro
 - **Visualization**:  
   Final dashboards are created using **Power BI**, directly connected to Synapse for seamless data exploration.
 
+  <img width="1876" height="596" alt="Architecture diagram" src="https://github.com/user-attachments/assets/2ffb2d65-c996-47e4-acc4-854484608186" />
+
+
 ## What I Learned
 - Hands-on experience orchestrating data pipelines using Azure-native tools.
 - Real-world implementation of medallion architecture (Raw → Transformed).
