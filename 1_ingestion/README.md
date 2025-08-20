@@ -21,4 +21,7 @@ The ingestion was orchestrated via Azure Data Factory pipelines, landing the fil
 
 ## References
 - [pipeline_github_to_datalake](1_ingestion/pipeline_github_to_datalake.json) (pipeline export)
-- `source_info.md` (details on dataset)
+- [source_info](1_ingestion/source_info.md) (details on dataset)
+
+## Screenshot
+<img width="1918" height="937" alt="image" src="https://github.com/user-attachments/assets/9a3431f4-8b82-45ca-995c-258fff3053ad" />
