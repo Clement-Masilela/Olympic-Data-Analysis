@@ -20,5 +20,5 @@ The ingestion was orchestrated via Azure Data Factory pipelines, landing the fil
 - Files: `athletes.csv`, `teams.csv`, `coaches.csv`, `medals.csv`, `entriesgender.csv`
 
 ## References
-- `pipeline_github_to_datalake.json` (pipeline export)
+- [pipeline_github_to_datalake](1_ingestion/pipeline_github_to_datalake.json) (pipeline export)
 - `source_info.md` (details on dataset)
