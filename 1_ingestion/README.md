@@ -10,15 +10,15 @@ The ingestion was orchestrated via Azure Data Factory pipelines, landing the fil
 - **Ingestion Tool**: Azure Data Factory
 - **Destination**: Azure Data Lake Gen2 (raw zone)
 
-## ⚙️ Pipeline
-- **Pipeline Name**: `ingest_olympic_data`
-- **ADF Activities Used**: Copy Data, Linked Services, Datasets
-- **Schedule/Trigger**: (manual / scheduled)
+## Pipeline
+- **Pipeline Name**: `data_ingestion`
+- **ADF Activities Used**: Copy Data
+- **Schedule/Trigger**: manual 
 
-## 📂 Output
-- Data landed in `raw/` container in ADLS Gen2
-- Example files: `athletes.csv`, `events.csv`
+## Output
+- Data landed in `raw-data/` container in ADLS Gen2
+- Files: `athletes.csv`, `teams.csv`, `coaches.csv`, `medals.csv`, `entriesgender.csv`
 
-## 🔗 References
-- `adf_pipeline.json` (pipeline export)
+## References
+- `pipeline_github_to_datalake.json` (pipeline export)
 - `source_info.md` (details on dataset)
