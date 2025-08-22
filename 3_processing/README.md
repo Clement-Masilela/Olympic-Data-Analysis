@@ -18,7 +18,7 @@ Raw data is transformed into analytics-ready datasets for reporting and visualiz
 
 
 ## Notebooks  
-- Transformation logic is stored in the `databricks_notebooks/` folder.  
+- Transformation logic is stored in the `3_processing/` folder.  
 
 ## Output  
 - Cleaned and transformed data available in ADLS under the `transformed-data/` layer.  
