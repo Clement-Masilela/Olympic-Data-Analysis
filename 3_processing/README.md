@@ -22,6 +22,9 @@ Raw data is transformed into analytics-ready datasets for reporting and visualiz
 
 ## Output  
 - Cleaned and transformed data available in ADLS under the `transformed-data/` layer.
+<img width="462" height="507" alt="image" src="https://github.com/user-attachments/assets/35682ef9-a6e4-473e-b369-c1443e1e14db" /> <img width="513" height="502" alt="image" src="https://github.com/user-attachments/assets/eac463ed-c5d8-4e46-882e-8c9f85cd53c1" />
+
+
 
 ## Notes
 - Mounting uses Service Principal + OAuth for secure integration with ADLS.  
