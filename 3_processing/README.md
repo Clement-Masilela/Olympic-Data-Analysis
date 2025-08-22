@@ -4,22 +4,29 @@
 Raw data is transformed into analytics-ready datasets for reporting and visualization.  
 
 ## Tools Used  
-- **Databricks (Spark)**  
-- Languages: **Python, PySpark, SQL**  
+- Databricks (Spark) 
+- Languages: Python 
 
 ## Steps  
-1. **Read raw CSV files** from the `raw-data/` layer in ADLS using Spark (`spark.read.format("csv")` with headers).  
-2. **Cast columns to correct data types**:  
+1. Read raw CSV files from the `raw-data/` layer in ADLS using Spark (`spark.read.format("csv")` with headers).  
+2. Cast columns to correct data types:  
    - Converted `Female`, `Male`, and `Total` columns in `entriesgender` to `IntegerType`.  
-3. **Standardized & cleaned data**:  
+3. Standardized & cleaned data:  
    - Renamed columns for consistency across datasets.  
    - Ensured no null values in key fields (e.g., athlete names, NOC codes).  
-4. **Wrote transformed datasets** back to ADLS in the `transformed-data/` folder with headers and overwrite mode enabled.  
+4. Wrote transformed datasets back to ADLS in the `transformed-data/` folder with headers and overwrite mode enabled.  
 
 
 ## Notebooks  
 - Transformation logic is stored in the `3_processing/` folder.  
 
 ## Output  
-- Cleaned and transformed data available in ADLS under the `transformed-data/` layer.  
+- Cleaned and transformed data available in ADLS under the `transformed-data/` layer.
+
+## Notes
+- Mounting uses Service Principal + OAuth for secure integration with ADLS.  
+- Schema casting ensures numerical accuracy for aggregations.  
+- Transformations cover both KPI calculation and curated dataset generation.  
+- Data is written back in CSV for accessibility, but could also be stored in Parquet/Delta for performance.  
+
 
