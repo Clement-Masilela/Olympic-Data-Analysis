@@ -1,20 +1,25 @@
 # 3. Data Processing & Transformation
 
-## 📌 Objective
-Describe how raw data was transformed into analytics-ready data.
+## Objective  
+Raw data is transformed into analytics-ready datasets for reporting and visualization.  
 
-## ⚙️ Tool Used
-- **Databricks (Spark)**
-- Languages: Python, PySpark, SQL
+## Tools Used  
+- **Databricks (Spark)**  
+- Languages: **Python, PySpark, SQL**  
 
-## 🔄 Steps
-1. Clean null/missing values
-2. Standardize column names
-3. Join datasets (athletes, events, results)
-4. Write outputs to ADLS `processed/` and `curated/`
+## Steps  
+1. **Read raw CSV files** from the `raw-data/` layer in ADLS using Spark (`spark.read.format("csv")` with headers).  
+2. **Cast columns to correct data types**:  
+   - Converted `Female`, `Male`, and `Total` columns in `entriesgender` to `IntegerType`.  
+3. **Standardized & cleaned data**:  
+   - Renamed columns for consistency across datasets.  
+   - Ensured no null values in key fields (e.g., athlete names, NOC codes).  
+4. **Wrote transformed datasets** back to ADLS in the `transformed-data/` folder with headers and overwrite mode enabled.  
 
-## 📓 Notebooks
-- `databricks_notebooks/` folder contains transformation logic
 
-## Output
-- Cleaned data available in ADLS `curated/`
+## Notebooks  
+- Transformation logic is stored in the `databricks_notebooks/` folder.  
+
+## Output  
+- Cleaned and transformed data available in ADLS under the `transformed-data/` layer.  
+
