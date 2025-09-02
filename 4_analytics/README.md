@@ -1,9 +1,9 @@
 # 4. Analytics & Querying
 
-## 📌 Objective
+## Objective
 Use SQL to analyze curated datasets.
 
-## ⚙️ Tool Used
+## Tool Used
 - Azure Synapse Analytics (Serverless SQL)
 
 ## Example Queries
