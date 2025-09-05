@@ -12,4 +12,4 @@ Use SQL to analyze curated datasets.
 - Top performing countries by year
 
 ## Files
-- `synapse_queries.sql` → collection of queries
+- `sql_queries` → collection of queries
