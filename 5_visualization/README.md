@@ -6,7 +6,7 @@ Present insights in a clear, interactive dashboard.
 ## Tool Used
 - Power BI
 
-## 📊 Dashboard Features
+## Dashboard Features
 - Medal count by country & year
 - Gender distribution
 - Event participation trends
