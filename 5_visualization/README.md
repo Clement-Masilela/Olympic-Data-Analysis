@@ -1,9 +1,9 @@
 # 5. Visualization
 
-## 📌 Objective
+## Objective
 Present insights in a clear, interactive dashboard.
 
-## ⚙️ Tool Used
+## Tool Used
 - Power BI
 
 ## 📊 Dashboard Features
@@ -11,6 +11,4 @@ Present insights in a clear, interactive dashboard.
 - Gender distribution
 - Event participation trends
 
-## Files
-- `powerbi_dashboard.pbix` → full dashboard
-- `screenshots/` → exported images for GitHub preview
+STILL YET TO DO
